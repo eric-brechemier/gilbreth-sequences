@@ -218,6 +218,28 @@ or:
 u(n+4) = 2 * 10^( 2 + floor(n/2) ) + 10 * u(n) + 2
 ```
 
+## Relationship with Sequence A094626
+
+Sequence A094626 may be defined in the same way for comparison.
+It shares the same initial conditions as the Top-Down Gilbreth sequence:
+
+| Term |   A094626 |  Top-Down | Bottom-Up |
+| ---: | --------: | --------: | --------: |
+|    1 |         1 |         1 |         1 |
+|    2 |         2 |         2 |         2 |
+|    3 |    **12** |    **12** |    **21** |
+|    4 |        22 |        22 |        22 |
+
+but the following terms are produced by a recursive process
+which differs from the one in the two Gilbreth sequences:
+
+```
+u(n+4) = u(n) || "22"
+```
+
+Stretcher digits `2` are always added to the right in A094626, which
+makes it a more distant relative of the two tight-knit Gilbreth sequences.
+
 ## References
 
 ### Bricklaying System
