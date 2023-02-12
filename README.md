@@ -119,6 +119,105 @@ or rounded right in the Bottom-Up Gilbreth sequence:
 
 [A094626]: https://oeis.org/A094626
 
+## Recursive Definition of the Sequences
+
+Starting from the fact that *Each successive [unit] is
+a half brick wider (…) than the one that precedes it*,
+that is, the length of the middle course increases by:
+
+* a half brick after 1 step,
+* a whole brick after 2 steps,
+* a brick and a half after 3 steps,
+* two whole bricks after 4 steps.
+
+Due to the balanced design of the units, the middle course
+in unit #n+4 is actually identical to the middle course
+in unit #n with a whole stretcher brick added on each side.
+
+This leads to a recursive definition of Gilbreth Sequences in
+two stages: initial conditions for the first four steps followed
+with a recursive definition of step n+4 based on step n.
+
+### Initial Conditions
+
+| Term | Top-Down | Bottom-Up |
+| ---: | -------: | --------: |
+|    1 |        1 |         1 |
+|    2 |        2 |         2 |
+|    3 |   **12** |    **21** |
+|    4 |       22 |        22 |
+
+The term #3 embeds the idiosyncratic preference for headers one step
+to the left of the center of the course in the Top-Down Gilbreth sequence
+vs the right of the center of the course in the Bottom-Up Gilbreth sequence.
+
+### Recursive Definition
+
+The recursive process at play is identical in both Gilbreth sequences,
+a concatenation, noted here `||` of a whole stretcher brick `2` on the
+left and on the right of the term found 4 steps before in the sequence:
+
+```
+u(n+4) = "2" || u(n) || "2"
+```
+
+This concatenation of digits can be expressed in numerical terms through
+the addition of three terms shifted in the expected position through a
+multiplication by the corresponding powers of 10:
+
+* `2`, the stretcher on the right, not shifted
+* `u(n)`, shifted by one,
+* `2`, the stretcher on the left, shifted by the number of digits in `u(n)`
+  plus one for the number of digits in the stretcher on the right.
+
+The shift required for the stretcher digit `2` on the left is:
+* the number of digits in item `u(n)`
+* plus one for the stretcher digit `2` on the right.
+
+The number of digits in item `u(n)` is known for the first four items:
+
+| Term | Top-Down | Bottom-Up | **Digits** |
+| ---: | -------: | --------: | ---------: |
+|    1 |        1 |         1 |      **1** |
+|    2 |        2 |         2 |      **1** |
+|    3 |       12 |        21 |      **2** |
+|    4 |       22 |        22 |      **2** |
+
+The length can be computed recursively for the following items,
+given that the term at step #n+4 grows by two stretcher digits
+compared to the term at step #n:
+
+```
+digits( u(n+4) ) = digits( u(n) ) + 2
+```
+
+In the first four terms, the number of digits increases by one
+in every other step. By recursion, this remains the same in the
+next four terms, indefinitely. We can thus compute the number
+of digits of the term #n as:
+
+```
+digits( u(n) ) = 1 + floor(n/2)
+```
+
+We can now compute the expected shift to rewrite the concatenation:
+
+```
+u(n+4) = "2" || u(n) || "2"
+```
+
+as:
+
+```
+u(n+4) = 2 * 10^( 1 + floor(n/2) + 1 ) + 10 * u(n) + 2
+```
+
+or:
+
+```
+u(n+4) = 2 * 10^( 2 + floor(n/2) ) + 10 * u(n) + 2
+```
+
 ## References
 
 ### Bricklaying System
