@@ -41,9 +41,9 @@ I have devised a numerical transcription of bricks and brick courses
 which forms the basis for the mathematical definition of the top-down
 and the bottom-up sequences for their inclusion in the OEIS database.
 
-* a header brick is represented as digit 1 (half length)
-* a stretcher brick is represented as digit 2 (full length)
-* a course of bricks is represented as a number in which successive digits,
+* a *header brick* is represented as digit 1 (half length)
+* a *stretcher brick* is represented as digit 2 (full length)
+* a *course of bricks* is represented as a number in which successive digits,
   from left to right, represent the corresponding bricks found in the course
   in the same left to right order.
 
