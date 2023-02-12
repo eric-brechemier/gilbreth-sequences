@@ -147,7 +147,7 @@ with a recursive definition of step n+4 based on step n.
 |    3 |   **12** |    **21** |
 |    4 |       22 |        22 |
 
-The term #3 embeds the idiosyncratic preference for center header positions
+Term #3 embeds the idiosyncratic preference for center header positions
 rounded to the left in the Top-Down Gilbreth sequence and rounded to  the
 right in the Bottom-Up Gilbreth sequence.
 
