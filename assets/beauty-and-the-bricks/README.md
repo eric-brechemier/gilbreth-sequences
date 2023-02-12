@@ -2,7 +2,7 @@
 
 ### The Music of the Bricks
 
-![Brick Facade](pictures/brick-facade.jpg)
+![Brick Facade](brick-facade.jpg)
 
 Brick patterns have fascinated me for a long time.
 There is an inner beauty to the rhythm of a plain brick wall,
@@ -15,7 +15,7 @@ escape a growing scrutiny.
 
 ### Brick by Brick
 
-![Brick Bond](pictures/brick-bond.jpg)
+![Brick Bond](brick-bond.jpg)
 
 Let's consider the facade of a typical brick wall.
 Apart from the edges, two shapes are repeated endlessly:
@@ -37,7 +37,7 @@ bricks, with varying degrees depending on the type of wall.
 
 ### Bricks vs Concrete
 
-![Isometric view showing Flemish bond (exterior) and common bond (interior)](pictures/brick-bond-isometric-view.jpg)
+![Isometric view showing Flemish bond (exterior) and common bond (interior)](brick-bond-isometric-view.jpg)
 
 The classic novel “Cheaper by the Dozen” tells the story of a
 family with twelve kids. The father, Frank B. Gilbreth, wrote
@@ -51,7 +51,7 @@ against the growing use of concrete.
 
 ### Base Units
 
-![Brick Units](pictures/brick-units.jpg)
+![Brick Units](brick-units.jpg)
 
 The book covers all the aspects of bricklaying, including a rational
 description of bonds and decorative patterns. It describes a system of
