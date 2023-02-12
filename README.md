@@ -79,6 +79,29 @@ in unit #i+1:
 Each term in the bottom-up sequence is a mirror of the corresponding term
 in the top-down sequence, with the same digits in reversed order.
 
+## Related Sequence in the OEIS
+
+Sequence [A094626][] in the OEIS is related to the two Gilbreth sequences:
+
+1.  `1`
+2.  `2`
+3.  `12`
+4.  `22`
+5.  `122`
+6.  `222`
+7.  `1222`
+8.  `2222`
+9.  `12222`
+10. `22222`
+
+Starting with term #1, each term in sequence A094626 has the same digits
+as the corresponding terms in the Top-Down and Bottom-Up Gilbreth sequences,
+except that the digit `1` is found in the first position in A094626 rather
+than in the middle position, rounded left in the Top-Down Gilbreth sequence
+or rounded right in the Bottom-Up Gilbreth sequence.
+
+[A094626]: https://oeis.org/A094626
+
 [BEAUTY_N_BRICKS]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/beauty-and-the-bricks.pdf
 [BRICKLAYING_SYSTEM]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf
 [BOND_CHART_25]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf#page=281
