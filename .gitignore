@@ -1,0 +1,2 @@
+# ignore macOS thumbnails and metadata
+.DS_Store
