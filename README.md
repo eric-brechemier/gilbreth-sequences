@@ -11,6 +11,8 @@ This led me to study the 1909 book [Bricklaying System][BRICKLAYING_SYSTEM]
 by Frank B. Gilbreth. [Bond Chart No 25][BOND_CHART_25] on page 265 of the book
 shows 10 successive units of a basic module used in decorative brick patterns.
 
+![Bond Charts No 25](./assets/beauty-and-the-bricks/brick-units.jpg)
+
 I have identified the [underlying algorithm][BRICK_UNIT_ALGORITHM] which
 allows to recreate the 10 first units shown on Bond Chart No 25 and to
 continue the sequence indefinitely based on the same logic.
