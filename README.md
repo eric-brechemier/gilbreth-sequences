@@ -98,7 +98,19 @@ Starting with term #1, each term in sequence A094626 has the same digits
 as the corresponding terms in the Top-Down and Bottom-Up Gilbreth sequences,
 except that the digit `1` is found in the first position in A094626 rather
 than in the middle position, rounded left in the Top-Down Gilbreth sequence
-or rounded right in the Bottom-Up Gilbreth sequence.
+or rounded right in the Bottom-Up Gilbreth sequence:
+
+| Term |   A094626 |  Top-Down | Bottom-Up |
+| ---: | --------: | --------: | --------: |
+|    1 |         1 |         1 |         1 |
+|    2 |         2 |         2 |         2 |
+|    3 |    **1**2 |    **1**2 |    **2**1 |
+|    4 |        22 |        22 |        22 |
+|    5 |   **1**22 |   2**1**2 |   2**1**2 |
+|    6 |       222 |       222 |       222 |
+|    7 |  **1**222 |  2**1**22 |  22**1**2 |
+|    8 |      2222 |      2222 |      2222 |
+|    9 | **1**2222 | 22**1**22 | 22**1**22 |
 
 [A094626]: https://oeis.org/A094626
 
