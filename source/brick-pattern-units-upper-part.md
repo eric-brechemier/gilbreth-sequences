@@ -18,7 +18,7 @@ Middle Course in Frank and Lillian Gilbreth Brick Pattern Units
 ## COMMENTS
 
 Each number in the sequence represents a course of bricks
-from the top to the middle of brick pattern units.
+from the top to the middle of brick pattern units included.
 
 The digits of each number represent two types of bricks,
 headers and stretchers, by their relative lengths in the courses:
