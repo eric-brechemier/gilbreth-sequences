@@ -123,7 +123,7 @@ or rounded right in the Bottom-Up Gilbreth sequence:
 
 Starting from the fact that *Each successive [unit] is
 a half brick wider (…) than the one that precedes it*,
-that is, the length of the middle course increases by:
+the length of the middle course increases by:
 
 * a half brick after 1 step,
 * a whole brick after 2 steps,
