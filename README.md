@@ -161,9 +161,9 @@ left and on the right of the term found 4 steps before in the sequence:
 u(n+4) = "2" || u(n) || "2"
 ```
 
-This concatenation of digits can be expressed in numerical terms through
-the addition of three terms shifted to the expected positions through a
-multiplication by the corresponding powers of 10:
+This concatenation of digits can be expressed in numerical terms
+by the addition of three terms shifted to the expected positions
+through a multiplication by the corresponding powers of 10:
 
 * `2`, the stretcher on the right, not shifted
 * `u(n)`, shifted by one,
