@@ -77,7 +77,7 @@ on whether the middle course of the previous unit contained a header or
 was made entirely of stretchers:
 
 * when the previous middle course contained a header, the new middle course
-  is obtained by replaced that header by a stretcher (half width longer)
+  is obtained by replacing that header with a stretcher (half width longer)
 
 * when the previous middle course contained only stretchers, a header is
   added to obtain the new middle course. When the number of stretchers
