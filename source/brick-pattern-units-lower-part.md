@@ -6,6 +6,7 @@ Lower Part of Frank and Lillian Gilbreth Brick Pattern Units
 
 Also:
 Reversed Middle Course in Frank and Lillian Gilbreth Brick Pattern Units
+Bottom-Up Gilbreth Sequence
 
 ## DATA
 
