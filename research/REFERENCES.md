@@ -6,6 +6,8 @@
 * [Bricklaying System (copy from Getty Research Institute)](https://archive.org/details/bricklayingsyste00gilb)
 * [Bricklaying System (copy from University of California)](https://archive.org/details/bricklayingsyste00gilbrich)
 
+* [Cheaper by the Dozen](https://archive.org/details/cheaperbydozen0000gilb)
+
 ## New England Historical Society
 
 * [Lillian Gilbreth, Genius in the Art of Living](https://www.newenglandhistoricalsociety.com/lillian-gilbreth-genius-art-living/)

@@ -252,6 +252,12 @@ makes it a more distant relative of the two tight-knit Gilbreth sequences.
 * [Bricklaying System (copy from Getty Research Institute)](https://archive.org/details/bricklayingsyste00gilb)
 * [Bricklaying System (copy from University of California)](https://archive.org/details/bricklayingsyste00gilbrich)
 
+### Cheaper by the Dozen
+
+#### Internet Archive
+
+* [Cheaper by the Dozen](https://archive.org/details/cheaperbydozen0000gilb)
+
 ### Frank and Lillian Gilbreth
 
 #### New England Historical Society
