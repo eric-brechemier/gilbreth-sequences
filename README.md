@@ -20,6 +20,11 @@ continue the sequence indefinitely based on the same logic.
 
 *A course of bricks is a sequence of bricks on the same row.*
 
+[BEAUTY_N_BRICKS]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/beauty-and-the-bricks.pdf
+[BRICKLAYING_SYSTEM]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf
+[BOND_CHART_25]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf#page=281
+[BRICK_UNIT_ALGORITHM]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/beauty-and-the-bricks.pdf#page=2
+
 ## Definition of Top-Down and Bottom-Up Gilbreth Sequences
 
 This infinite sequence of Gilbreth Brick Units can be described as the
@@ -113,11 +118,6 @@ or rounded right in the Bottom-Up Gilbreth sequence:
 |    9 | **12222** | **22122** | **22122** |
 
 [A094626]: https://oeis.org/A094626
-
-[BEAUTY_N_BRICKS]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/beauty-and-the-bricks.pdf
-[BRICKLAYING_SYSTEM]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf
-[BOND_CHART_25]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/assets/bricklaying-system-by-frank-b-gilbreth.pdf#page=281
-[BRICK_UNIT_ALGORITHM]: https://raw.githubusercontent.com/eric-brechemier/gilbreth-sequences/main/beauty-and-the-bricks.pdf#page=2
 
 ## References
 
