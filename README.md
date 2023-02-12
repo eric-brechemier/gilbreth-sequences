@@ -200,13 +200,13 @@ of digits of the term #n as:
 digits( u(n) ) = 1 + floor(n/2)
 ```
 
-We can now compute the expected shift to rewrite the concatenation:
+We can now rewrite the concatenation:
 
 ```
 u(n+4) = "2" || u(n) || "2"
 ```
 
-as:
+using the computed shift for the number of digits in `u(n)` as:
 
 ```
 u(n+4) = 2 * 10^( 1 + floor(n/2) + 1 ) + 10 * u(n) + 2
