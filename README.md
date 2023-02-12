@@ -20,6 +20,8 @@ continue the sequence indefinitely based on the same logic.
 
 *A course of bricks is a sequence of bricks on the same row.*
 
+## Definition of Top-Down and Bottom-Up Gilbreth Sequences
+
 This infinite sequence of Gilbreth Brick Units can be described as the
 conjunction of two separate sequences:
 
