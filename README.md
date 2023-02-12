@@ -147,9 +147,9 @@ with a recursive definition of step n+4 based on step n.
 |    3 |   **12** |    **21** |
 |    4 |       22 |        22 |
 
-The term #3 embeds the idiosyncratic preference for headers one step
-to the left of the center of the course in the Top-Down Gilbreth sequence
-vs the right of the center of the course in the Bottom-Up Gilbreth sequence.
+The term #3 embeds the idiosyncratic preference for center header positions
+rounded to the left in the Top-Down Gilbreth sequence and rounded to  the
+right in the Bottom-Up Gilbreth sequence.
 
 ### Recursive Definition
 
